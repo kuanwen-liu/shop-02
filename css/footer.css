@@ -1,0 +1,74 @@
+/*!--Footer--*/
+.footerSection1-1, .footerSection1-2{
+    background-color: #f7f7f2;
+    height: 135px;
+    padding-top: 55px;
+}
+.footerSection1-2{
+    background-color: #f7f7f2;
+    height: 135px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footerSection1-1 .container{
+    transform: skewX(-50deg);
+    padding: 0;
+}
+.footerSection1-1 .container .change{
+    transform: skewX(50deg);
+    padding: 0;
+}
+.footerSection1-1 .container .wire2, .footerSection1-1 .container .wire3, .footerSection1-1 .container .wire4{
+    border-left: 1px #cccccc solid;
+}
+.footerSection1-2 .container{
+    padding: 0;
+}
+.footerSection1-2 .container .fs1-2{
+    margin-bottom: 20px;
+}
+.footerSection2{
+    background-color: #d9d9d9;
+    padding-bottom: 15px;
+}
+.footerSection2 .container{
+    padding: 0;
+    padding-top: 30px;
+    height: 70px;
+}
+.footerSection1-1 .container div, .footerSection1-2 .container div{
+    text-align: center;
+}
+.footerSection1-1 .container a, .footerSection1-2 .container a{
+    font-size: 21px;
+    color: #4d4d4d;
+}
+.fS2{
+    text-align: center;
+    padding: 0;
+}
+.fS2-2, .fS2-4, .fS2-5{
+    border-left:1px #4d4d4d solid;
+}
+.fS2 a{
+    font-size: 14px;
+    color: #6f6f6e;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 992px){
+    .fS2 p{
+        font-size: 14px;
+        color: #6f6f6e;
+        float: right;
+    }
+}
+@media screen and (max-width: 991px){
+    .fS2 p{
+        font-size: 14px;
+        color: #6f6f6e;
+        text-align: center;
+    }
+}
+/*!--Footer--*/

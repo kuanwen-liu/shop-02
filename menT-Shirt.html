@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Man T-Shirt</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- MDB core CSS -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet">
+    <!--Hamburger&Navbars-->
+    <link rel="stylesheet" href="css/hamburger&navbars.css">
+    <!--Footer CSS-->
+    <link rel="stylesheet" href="css/footer.css">
+    <style>
+        body{
+            font-family: 微軟正黑體 ;
+        }
+        /*!--Title--*/
+        #title .container{
+            height: 130px;
+            padding: 0;
+        }
+        #title h3{
+            padding-top: 55px;
+            font-size: 14px;
+            text-align: center;
+            color: #868686;
+        }
+        #title h3 a{
+            color: #5d5d5d;
+        }
+        /*!--/Title--*/
+
+        /*!--Product--*/
+        #product{
+            padding: 0;
+            border-top:1px #cccccc solid;
+            border-left:1px #cccccc solid;
+        }
+        .product{
+            padding: 0;
+        }
+        .productBox{
+            border-bottom:1px #cccccc solid;
+            border-right:1px #cccccc solid;
+            text-align: center;
+            padding: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .product a img{
+            width: 100%;
+            height: auto;
+        }
+        .product .productBox h4{
+            font-size: 18px;
+            color: #3c3c3b;
+            line-height: 15px;
+        }
+        .product .productBox h5{
+            font-size: 18px;
+            color: #6f6f6e;
+            line-height: 0;
+        }
+
+
+        /*!--/Product--*/
+
+        /*!--Page--*/
+        #pagination{
+            height: 110px;
+            text-align: center;
+            padding-top: 12px;
+        }
+        .pagination .page{
+            height: 22px;
+            width: 15px;
+            background-color: #cccccc;
+            border-radius: 50%;
+            margin-right: 4px;
+            margin-left: 4px;
+        }
+        .pagination .page:hover{
+            background-color: #656565;
+        }
+        .pagination .pageMove{
+            padding-top: 12px;
+        }
+        /*!--/Page--*/
+    </style>
+</head>
+<body>
+<!--NavbarsMember-->
+<nav class="navbar navbarMember">
+    <div class="container">
+        <div class="navbar-header visible-xs">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="logoMini">
+                <a href="index.html"><img src="imgs/logoWhite.png" alt=""></a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm">
+                <li class="active"><a href="#" class="waves-effect waves-light">訂閱電子報 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#" class="waves-effect waves-light">會員登入/註冊</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">男 裝<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">背 心</a></li>
+                        <li><a href="menT-Shirt.html">短袖T恤</a></li>
+                        <li><a href="#">POLO衫</a></li>
+                        <li><a href="#">長袖上衣</a></li>
+                        <li><a href="#">針織衫/毛衣</a></li>
+                        <li><a href="#">五分袖/七分袖</a></li>
+                        <li><a href="#">休閒襯衫</a></li>
+                        <li><a href="#">連帽T恤</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">女 裝<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">背 心</a></li>
+                        <li><a href="#">短袖T恤</a></li>
+                        <li><a href="#">POLO衫</a></li>
+                        <li><a href="#">長袖上衣</a></li>
+                        <li><a href="#">針織衫/毛衣</a></li>
+                        <li><a href="#">五分袖/七分袖</a></li>
+                        <li><a href="#">休閒襯衫</a></li>
+                        <li><a href="#">連帽T恤</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">小 孩<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">背 心</a></li>
+                        <li><a href="#">短袖T恤</a></li>
+                        <li><a href="#">POLO衫</a></li>
+                        <li><a href="#">長袖上衣</a></li>
+                        <li><a href="#">針織衫/毛衣</a></li>
+                        <li><a href="#">五分袖/七分袖</a></li>
+                        <li><a href="#">休閒襯衫</a></li>
+                        <li><a href="#">連帽T恤</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">嬰幼兒<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">背 心</a></li>
+                        <li><a href="#">短袖T恤</a></li>
+                        <li><a href="#">POLO衫</a></li>
+                        <li><a href="#">長袖上衣</a></li>
+                        <li><a href="#">針織衫/毛衣</a></li>
+                        <li><a href="#">五分袖/七分袖</a></li>
+                        <li><a href="#">休閒襯衫</a></li>
+                        <li><a href="#">連帽T恤</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">運 動<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">背 心</a></li>
+                        <li><a href="#">短袖T恤</a></li>
+                        <li><a href="#">POLO衫</a></li>
+                        <li><a href="#">長袖上衣</a></li>
+                        <li><a href="#">針織衫/毛衣</a></li>
+                        <li><a href="#">五分袖/七分袖</a></li>
+                        <li><a href="#">休閒襯衫</a></li>
+                        <li><a href="#">連帽T恤</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="logo hidden-xs">
+            <a href="index.html"><img src="imgs/logoBlack.png" alt=""></a>
+        </div>
+        <div id="member hidden-xs">
+            <div class="search hidden-xs">
+                <form><fieldset><input type="search" placeholder="Search"><button class="searchButton" type="submit"><i class="fa fa-search"></i></button></fieldset></form>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav" id="top">
+                    <li><a href="#">訂閱電子報</a></li>
+                    <li><a href="#">會員登入/註冊</a></li>
+                    <li><a href="#">0個商品</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--/NavbarsMember-->
+
+<!--NavbarsItem-->
+<div class="container hidden-xs" style="padding: 0">
+    <ul id="menu">
+        <li><a href="#" class="productItem1">男 裝</a>
+            <ul>
+                <li><a href="#">背 心</a></li>
+                <li><a href="menT-Shirt.html">短袖T恤</a></li>
+                <li><a href="#">POLO衫</a></li>
+                <li><a href="#">長袖上衣</a></li>
+                <li><a href="#">針織衫/毛衣</a></li>
+                <li><a href="#">五分袖/七分袖</a></li>
+                <li><a href="#">休閒襯衫</a></li>
+                <li><a href="#">連帽T恤</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="productItem1">女 裝</a>
+            <ul>
+                <li><a href="#">背 心</a></li>
+                <li><a href="#">短袖T恤</a></li>
+                <li><a href="#">POLO衫</a></li>
+                <li><a href="#">長袖上衣</a></li>
+                <li><a href="#">針織衫/毛衣</a></li>
+                <li><a href="#">五分袖/七分袖</a></li>
+                <li><a href="#">休閒襯衫</a></li>
+                <li><a href="#">連帽T恤</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="productItem1">小 孩</a>
+            <ul>
+                <li><a href="#">背 心</a></li>
+                <li><a href="#">短袖T恤</a></li>
+                <li><a href="#">POLO衫</a></li>
+                <li><a href="#">長袖上衣</a></li>
+                <li><a href="#">針織衫/毛衣</a></li>
+                <li><a href="#">五分袖/七分袖</a></li>
+                <li><a href="#">休閒襯衫</a></li>
+                <li><a href="#">連帽T恤</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="productItem1">嬰幼兒</a>
+            <ul>
+                <li><a href="#">背 心</a></li>
+                <li><a href="#">短袖T恤</a></li>
+                <li><a href="#">POLO衫</a></li>
+                <li><a href="#">長袖上衣</a></li>
+                <li><a href="#">針織衫/毛衣</a></li>
+                <li><a href="#">五分袖/七分袖</a></li>
+                <li><a href="#">休閒襯衫</a></li>
+                <li><a href="#">連帽T恤</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="productItem1" style="border: none">運 動</a>
+            <ul>
+                <li><a href="#">背 心</a></li>
+                <li><a href="#">短袖T恤</a></li>
+                <li><a href="#">POLO衫</a></li>
+                <li><a href="#">長袖上衣</a></li>
+                <li><a href="#">針織衫/毛衣</a></li>
+                <li><a href="#">五分袖/七分袖</a></li>
+                <li><a href="#">休閒襯衫</a></li>
+                <li><a href="#">連帽T恤</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!--/NavbarsItem-->
+
+<!--Title-->
+<div id="title">
+    <div class="container">
+        <h3>
+            <a href="index.html">首頁</a> / <a href="#">男裝</a> / 短袖T恤
+        </h3>
+    </div>
+</div>
+<!--/Title-->
+
+<div id="product" class="container">
+    <div class="product">
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="product.html">
+                <img src="imgs/one.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約韓細條紋T</h4>
+                    <h5>NT$ 980</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/two.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約POLO衫</h4>
+                    <h5>NT$ 680</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/three.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約牛津短袖襯衫</h4>
+                    <h5>NT$ 380</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/one.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約韓細條紋T</h4>
+                    <h5>NT$ 980</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/one.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約韓細條紋T</h4>
+                    <h5>NT$ 980</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/two.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約POLO衫</h4>
+                    <h5>NT$ 680</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/three.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約牛津短袖襯衫</h4>
+                    <h5>NT$ 380</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/one.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約韓細條紋T</h4>
+                    <h5>NT$ 980</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/one.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約韓細條紋T</h4>
+                    <h5>NT$ 980</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/two.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約POLO衫</h4>
+                    <h5>NT$ 680</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/three.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約牛津短袖襯衫</h4>
+                    <h5>NT$ 380</h5>
+                </div>
+            </a>
+        </div>
+        <div class="productBox col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="#">
+                <img src="imgs/one.jpg" alt="">
+                <div class="productName">
+                    <h4>MIT簡約韓細條紋T</h4>
+                    <h5>NT$ 980</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--Page-->
+<div id="pagination" class="container">
+    <ul class="pagination">
+        <li><a href="#!"><i class="fa fa-caret-left fa-2x"></i></a></li>
+        <li class="active pageMove"><a href="#" class="page"></a></li>
+        <li class="pageMove"><a href="#" class="page"></a></li>
+        <li class="pageMove"><a href="#" class="page"></a></li>
+        <li class="pageMove"><a href="#" class="page"></a></li>
+        <li class="pageMove"><a href="#" class="page"></a></li>
+        <li><a href="#!"><i class="fa fa-caret-right fa-2x"></i></a></li>
+    </ul>
+</div>
+<!--/Page-->
+
+
+
+
+<!--Footer-->
+<div class="footer">
+    <div class="footerSection1-1 hidden-xs">
+        <div class="container">
+            <div class="wire1 col-lg-3 col-md-3 col-sm-3 hidden-xs">
+                <div class="change">
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+            <div class="wire2 col-lg-3 col-md-3 col-sm-3 hidden-xs">
+                <div class="change">
+                    <a href="#">最新優惠</a>
+                </div>
+            </div>
+            <div class="wire3 col-lg-3 col-md-3 col-sm-3 hidden-xs">
+                <div class="change">
+                    <a href="#">訂閱電子報</a>
+                </div>
+            </div>
+            <div class="wire4 col-lg-3 col-md-3 col-sm-3 hidden-xs">
+                <div class="change">
+                    <a href="#">退貨說明</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footerSection1-2 visible-xs">
+        <div class="container">
+            <div class="fs1-2 col-xs-6">
+                <a href="#">Facebook</a>
+            </div>
+            <div class="fs1-2 col-xs-6">
+                <a href="#">最新優惠</a>
+            </div>
+            <div class="fs1-2 col-xs-6">
+                <a href="#">訂閱電子報</a>
+            </div>
+            <div class="fs1-2 col-xs-6">
+                <a href="#">退貨說明</a>
+            </div>
+        </div>
+    </div>
+    <div class="footerSection2">
+        <div class="container">
+            <div class="fS2 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <a class="fS2-1" href="#">聯絡我們</a>
+                <a class="fS2-2" href="journal.html">品牌日誌</a>
+            </div>
+            <div class="fS2 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <a class="fS2-3" href="#">網站使用條款</a>
+                <a class="fS2-4" href="privacy.html">隱私權政策</a>
+                <a class="fS2-5" href="#">免責聲明</a>
+            </div>
+            <div class="fS2 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <p>© 2016 Copyrightwww.oooo.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Footer-->
+
+
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        // 幫 #menu li 加上 hover 事件
+        $('#menu li').hover(function(){
+            // 先找到 li 中的子選單
+            var _this = $(this),
+                    _subnav = _this.children('ul');
+
+            // 變更目前母選項的背景顏色
+            // 同時顯示子選單(如果有的話)
+            _this.css('Color', '#06c');
+            _subnav.css('display', 'block');
+        } , function(){
+            // 變更目前母選項的背景顏色
+            // 同時隱藏子選單(如果有的話)
+            // 也可以把整句拆成上面的寫法
+            $(this).css('Color', '').children('ul').css('display', 'none');
+        });
+
+        // 取消超連結的虛線框
+        $('a').focus(function(){
+            this.blur();
+        });
+    });
+</script>
+</body>
+</html>
